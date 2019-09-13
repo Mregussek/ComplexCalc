@@ -87,8 +87,8 @@ double com::complex::getCos(double a)
 
 double com::complex::getSin(double a)
 {
-    double i = sin( degreeToRad(a) );
-    return i;
+    double s = sin( degreeToRad(a) );
+    return s;
 }
 
 double com::complex::getArcTg()
